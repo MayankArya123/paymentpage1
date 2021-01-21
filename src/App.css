@@ -1,4 +1,290 @@
+/* .block {
+  width: 70px;
+} */
+
+@import url('https://fonts.google.com/specimen/Poppins');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 20px;
+  padding: 70px; */
+}
+
+.main-block {
+  margin-top: 60px;
+ 
+}
+
+.content {
+   margin-top:90px !important;
+   width: 84%;
+   height: 80% ;
+   margin:auto;
+   background-color: white;
+   border-radius: 30px;
+}
+
+.align_center {
+  /* align-items: center !important;
+  justify-content: center !important; */
+  padding-top: 40px !important;
+  text-align: center !important;
+
+}
+
+.buttons .button1 {
+  margin-left: 10px !important;
+  margin-right: 15px !important;
+}
+.buttons .button2 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.buttons .button3 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.buttons .button4 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.buttons .button5 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.buttons .button6 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.buttons .button7 {
+   margin-left: 10px !important; 
+  margin-right: 15px !important;
+}
+.buttons .button8 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.buttons .button9 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.buttons .button10 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.buttons .button11 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.buttons .button12 {
+  /* margin-left: 10px !important; */
+  margin-right: 15px !important;
+}
+.gap {
+  height: 10px !important;
+}
+
+.green_button {
+
+  background-color:#5DB11D;
+  color:white;
+  transform: translateX(-40px);
+
+}
+
+.line_through {
+  text-decoration: line-through;
+  padding-left: 250px;
+}
+
+.margin_top {
+  margin-top: 35px;
+}
+
+.padding_left {
+  padding-left: 230px;
+}
+
+.middle {
+  
+  padding-top: 30px;
+  text-align: center;
+  font-size: bold;
+}
+
+
+.expand {
+   width: 400px;
+   height: 50px;
+}
+
+/* .main_block {
+  text-align: center;
+  align-items: center;
+} */
+
 .App {
+background-color:#00B4DB;
+height: 900px ;
+}
+
+
+.box1 {
+  padding-top: 30px !important;
+  margin-top: 0px !important;
+  /* display:flex !important; */
+  /* justify-content: start !important;
+  align-items: flex-start !important; */
+}
+
+.form {
+  width: 500px !important;
+  margin:auto;
+}
+
+.card {
+  width: 500Px !important;
+  height: 300px;
+  margin:auto;
+  border-radius: 30px ;
+  border-color: #00B4DB;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+  .content {
+    /* margin-top:90px !important; */
+    width: 82%;
+    /* height: 80% ;
+    margin:auto;
+    background-color: white;
+    border-radius: 30px;
+ } */
+}
+
+ .card {
+   margin-bottom: 60px;
+   width: 400px !important;
+   height: 400px;
+  /* margin:auto;
+  border-radius: 30px ;
+  border-color: #00B4DB;  */
+}
+
+.form {
+  width: 420px !important;
+  margin:auto;
+}
+
+.App {
+  /* background-color:#00B4DB; */
+  height: 1600px ;
+  }
+
+}
+
+
+@media (max-width: 575.98px) { 
+
+  /* .content {
+    width: 100%;
+  } */
+
+  .card {
+    margin-bottom: 40px;
+    width: 250px !important;
+    height: 400px;
+   /* margin:auto;
+   border-radius: 30px ;
+   border-color: #00B4DB;  */
+ }
+
+ .form {
+  width: 370px !important;
+  margin:auto;
+}
+
+  
+.App {
+  background-color:#00B4DB;
+  width: 400px !important;
+  height: 1800px ;
+  }
+
+  .coupon_container {
+           width: 250px;
+  }
+
+  .expand {
+    width: 180px;
+  }
+
+  .form {
+    width: 250px !important;
+    margin:auto;
+  }
+
+  .padding_left {
+    padding-left: 130px;
+  }
+
+  .line_through {
+    text-decoration: line-through;
+    padding-left: 100px;
+  }
+
+  /* .margin_top {
+    margin-top: 35px;
+  }
+   */
+ }
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+  .card {
+    /* margin-bottom: 40px;
+    width: 250px !important; */
+    /* height: 400px; */
+    margin:auto !important;
+    margin-left: 90px !important;
+    margin-bottom: 100px !important;
+   /* border-radius: 30px ;
+   border-color: #00B4DB;   */
+ }
+
+ .form {
+  padding-left: 0px;
+  /* transform: translateY(300px) !important; 
+  transform: translateX(-120px); */
+  width: 450px !important;
+  margin:auto;
+}
+
+.App {
+  /* background-color:#00B4DB;
+  width: 400px !important; */
+  height: 1600px ;
+  }
+/* 
+  .buttons .button12 {
+    /* margin-left: 10px !important; */
+     /* margin-top: 15px; */
+  /* }  */
+
+
+  }
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +321,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
