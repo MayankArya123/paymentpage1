@@ -144,6 +144,7 @@ height: 900px ;
 
 .form {
   width: 500px !important;
+  /* padding-right: 200px; */
   margin:auto;
 }
 
@@ -170,6 +171,20 @@ height: 900px ;
  } */
 }
 
+.padding_left {
+  padding-left: 130px;
+}
+
+.grade_text {
+  padding-left: 10px;
+  /* font-size: 18px; */
+}
+
+.card_title {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
  .card {
    margin-bottom: 60px;
    width: 400px !important;
@@ -179,15 +194,62 @@ height: 900px ;
   border-color: #00B4DB;  */
 }
 
+.line_through {
+   /* text-decoration: line-through; */
+   padding-left: 180px;
+} 
+
+
+.coupon_container {
+  width: 340px;
+  padding-left: 35px;
+  margin-bottom: 40px !important ;
+}
+
+.green_button {
+
+  /* background-color:#5DB11D;
+  color:white; */
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  transform: translateX(0px);
+
+}
+
+.margin_top {
+  /* margin-top: 35px; */
+  text-align: center;
+  padding-left:75px ;
+  margin-bottom: 20px;
+}
+
+.card_last_1_heading {
+  padding-left: 50px;
+}
+
+.card_last_2_heading {
+  padding-left: 50px;
+}
+
+.App {
+  background-color:#00B4DB;
+  height: 1600px ;
+  }
+
+
+/* 
+
 .form {
   width: 420px !important;
   margin:auto;
 }
 
-.App {
+/* .App {
   /* background-color:#00B4DB; */
-  height: 1600px ;
-  }
+  /* height: 1600px ;
+  } */ 
 
 }
 
@@ -199,16 +261,58 @@ height: 900px ;
   } */
 
   .card {
-    margin-bottom: 40px;
-    width: 250px !important;
-    height: 400px;
+    margin-top: 0px !important;
+    margin-bottom: 20px;
+    width: 300px !important;
+    height: 310px;
+    padding-top: 0px;
+    transform: translatey(-45px);
    /* margin:auto;
    border-radius: 30px ;
    border-color: #00B4DB;  */
  }
 
+ .card_body {
+  padding-top: 30px ;
+ }
+
+ .card_title {
+   padding-left: 10px;
+ }
+
+ .padding_left {
+  padding-left: 55px !important;
+}
+
+.grade_text {
+   padding-left: 10px;
+   font-size: 18px;
+}
+
+
+.align_center {
+  /* align-items: center !important;
+  justify-content: center !important; */
+  padding-bottom: 0px !important;
+  font-size: 24px;
+  font-weight:normal;
+  /* width: 150px; */
+  /* text-align: center !important; */
+
+}
+
+.line_through {
+  /* text-decoration: line-through; */
+  padding-left: 120px !important;
+}
+
+.margin_top {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
  .form {
-  width: 370px !important;
+  width: 210px !important;
   margin:auto;
 }
 
@@ -216,12 +320,34 @@ height: 900px ;
 .App {
   background-color:#00B4DB;
   width: 400px !important;
-  height: 1800px ;
+  height: 1500px ;
   }
 
   .coupon_container {
-           width: 250px;
+           width: 260px;
+           padding-left: 35px;
+           margin-bottom: 40px !important;
   }
+
+  .card_last_1_heading {
+    padding-left: 50px;
+  }
+
+  .card_last_2_heading {
+    padding-left: 50px;
+  }
+
+  .green_button {
+/* 
+    background-color:#5DB11D;
+    color:white; */
+    transform: translateX(-0px);
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+  
+  }
+
 
   .expand {
     width: 180px;
@@ -241,31 +367,180 @@ height: 900px ;
     padding-left: 100px;
   }
 
+  .buttons > button {
+
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .buttons .button5 {
+    margin-top: 6px;
+    margin-left: 10px !important;
+    /* margin-right: 15px !important; */
+  }
+  .buttons .button6 {
+    /* margin-left: 10px !important; */
+    margin-top: 6px;
+    margin-right: 15px !important;
+  }
+
+  .gap {
+    display: none;
+    height: 0px !important;
+}
+
+.buttons .button7 {
+
+  transform: translate(98px,-41px);
+  /* margin-left: 10px !important; 
+ margin-right: 15px !important; */
+}
+
+.buttons .button8 {
+
+  transform: translate(98px,-41px);
+  /* margin-left: 10px !important; 
+ margin-right: 15px !important; */
+}
+
+.buttons .button9 {
+
+  margin-top: 6px;
+  transform: translateX(-98px);
+  /* margin-left: 10px !important; 
+ margin-right: 15px !important; */
+}
+
+
+.buttons .button10 {
+
+  margin-top: 6px;
+  transform: translateX(-104px);
+
+}
+
+.buttons .button11 {
+
+  margin-top: 6px;
+  transform: translate(106px,-44px);
+}
+
+.buttons .button12 {
+
+  margin-top: 6px;
+  transform: translate(100px,-44px);
+
+}
+
+.expand {
+  width: 200px;
+  height: 40px;
+}
+
+/* .buttons .button10 {
+
+  margin-top: 6px;
+  transform: translateX(-104px);
+
+} */
+  /* padding-right: ;
+  padding-left: ; */
+  /* margin-left: 10px !important; 
+ margin-right: 15px !important; */
+
+/* 
+
+
+ .buttons .button11 {
+
+   transform: translate(98px);
+   margin-left: 10px !important; 
+   margin-right: 15px !important; 
+
+} 
+
+
+/* .buttons .button12 {
+
+  transform: translate(98px,-38px); 
+  /* margin-left: 10px !important; 
+ margin-right: 15px !important; */
+} 
   /* .margin_top {
     margin-top: 35px;
   }
    */
- }
+ 
 
  @media (min-width: 768px) and (max-width: 991.98px) { 
 
 
   .card {
     /* margin-bottom: 40px;
-    width: 250px !important; */
+    /* width: 250px !important; */ 
     /* height: 400px; */
-    margin:auto !important;
-    margin-left: 90px !important;
-    margin-bottom: 100px !important;
+    margin:auto ;
+    /* margin-left: 90px !important; */
+    margin-bottom: 100px;
    /* border-radius: 30px ;
    border-color: #00B4DB;   */
  }
 
+ .card_title {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.line_through {
+  /* text-decoration: line-through; */
+  padding-left: 270px;
+}
+
+.grade_text {
+  padding-left: 10px;
+  /* font-size: 18px; */
+}
+
+.margin_top {
+  /* margin-top: 30px; */
+  padding-left: 120px;
+  margin-bottom: 15px;
+}
+
+.coupon_container {
+  width: 400px;
+  padding-left: 90px;
+  margin-bottom: 40px !important;
+}
+
+
+.green_button {
+  /* 
+      background-color:#5DB11D;
+      color:white; */
+      transform: translateX(-2px);
+      padding-top: 7px;
+      padding-left: 5px;
+      padding-right: 5px;
+    
+    }
+
+    .card_last_1_heading {
+      padding-left: 50px;
+    }
+  
+    .card_last_2_heading {
+      padding-left: 50px;
+    }
+  
+
+
  .form {
-  padding-left: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
   /* transform: translateY(300px) !important; 
   transform: translateX(-120px); */
-  width: 450px !important;
+  width: 330px !important ;
   margin:auto;
 }
 
@@ -274,11 +549,394 @@ height: 900px ;
   width: 400px !important; */
   height: 1600px ;
   }
+
+ 
 /* 
   .buttons .button12 {
     /* margin-left: 10px !important; */
      /* margin-top: 15px; */
   /* }  */
+
+
+  }
+
+   @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+     
+.card {
+  width: 350px !important;
+  /* height: 300px;
+  margin:auto;
+  border-radius: 30px ;
+  border-color: #00B4DB; 
+}
+
+
+
+
+.card_title {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.line_through {
+  /* text-decoration: line-through; */
+  /* padding-left: 120px; */
+}
+
+.grade_text {
+  padding-left: 10px;
+  /* font-size: 18px; */
+}
+
+.padding_left {
+  padding-left: 90px;
+}
+
+
+.line_through {
+  /* text-decoration: line-through; */
+  padding-left: 120px;
+}
+
+.margin_top {
+  /* margin-top: 30px; */
+  padding-left:70px;
+  margin-bottom: 15px;
+}
+
+.card_title {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.coupon_container {
+  width: 300px;
+  padding-left: 50px;
+  margin-bottom: 40px !important;
+}
+
+.green_button {
+  /* 
+      background-color:#5DB11D;
+      color:white; */
+      transform: translateX(0px);
+      padding-top: 7px;
+      padding-left: 5px;
+      padding-right: 5px;
+    
+    }
+
+    .card_last_1_heading {
+      padding-left: 50px;
+    }
+  
+    .card_last_2_heading {
+      padding-left: 50px;
+    }
+  
+    /* .buttons > button {
+
+      /* margin-left: 10px; */
+      /* margin-right: 20px !important; */
+
+      /* padding-left: 5px;
+      padding-right: 5px; */
+  
+      .buttons .button1 {
+
+         margin-right: 15px !important;
+        /* margin-top: 6px;
+        transform: translate(106px,-44px); */
+      }
+  
+      .buttons .button4 {
+
+         margin-right: 15px !important;
+        /* margin-top: 6px;  */
+        transform: translate(220px,-42px); 
+      }
+
+      .buttons .button5 {
+
+         /* margin-right: 15px !important; */
+         margin-top: 6px;  
+        transform: translateX(-61px); 
+      }
+
+      .buttons .button6 {
+
+         /* margin-right: 15px !important; */
+        margin-top: 6px;  
+        transform: translateX(-61px); 
+      }
+
+      .buttons .button7 {
+
+         /* margin-right: 15px !important; */
+        /* margin-top: 6px;   */
+        transform: translate( 144px,-44px); 
+      }
+
+      .buttons .button8 {
+
+         /* margin-right: 15px !important; */
+        /* margin-top: 6px;   */
+        transform: translate( 140px,-44px); 
+      }
+
+      .buttons .button9 {
+
+         /* margin-right: 15px !important; */
+        /* margin-top: 6px;   */
+        transform: translateX( -142px); 
+      }
+
+      .buttons .button10 {
+
+         /* margin-right: 15px !important; */
+        /* margin-top: 6px;   */
+        transform: translate( 81px,-38px); 
+      }
+
+      .buttons .button11 {
+
+         /* margin-right: 15px !important; */
+        /* margin-top: 6px;   */
+        transform: translate( 74px,-38px); 
+      }
+
+      .buttons .button12 {
+
+         /* margin-right: 15px !important; */
+        /* margin-top: 6px;   */
+        transform: translate( 68px,-38px); 
+      }
+
+      .expand {
+         
+        margin-left: 10px;
+        padding-right: 10px;
+        width: 280px;
+        /* height: 50px; */
+    }
+
+      .gap {
+        height: 6px !important;
+      }
+
+      /* .buttons .button4 {
+
+         /* margin-right: 15px !important; */
+        /* margin-top: 6px;
+         transform: translate(106px,-44px);
+      } */
+    
+
+    .form {
+      /* width: 500px !important; */
+      padding-right: 140px !important;
+      /* margin:auto; */
+    }
+
+    .App {
+      /* background-color:#00B4DB;
+      width: 400px !important; */
+      height: 1600px ;
+      }
+    
+  
+  
+  } 
+
+  
+
+  @media (min-width: 1200px) { 
+
+
+    .grade_text {
+      padding-left: 10px;
+      /* font-size: 18px; */
+    }
+    
+    .padding_left {
+      padding-left: 200px;
+    }
+    
+    
+    .line_through {
+      /* text-decoration: line-through; */
+      padding-left: 240px;
+    }
+    
+    .margin_top {
+      /* margin-top: 30px; */
+      padding-left:120px;
+      margin-bottom: 15px;
+    }
+    
+    .card_title {
+      padding-top: 10px;
+      padding-left: 20px;
+    }
+    
+    .coupon_container {
+      width: 380px;
+      padding-left: 80px;
+      margin-bottom: 40px !important;
+    }
+
+    .green_button {
+      /* 
+          background-color:#5DB11D;
+          color:white; */
+          transform: translateX(-2px);
+           padding-top: 7px;
+          padding-left: 5px;
+          padding-right: 5px; 
+        
+        }
+
+        .card_last_1_heading {
+          padding-left: 50px;
+        }
+      
+        .card_last_2_heading {
+          padding-left: 50px;
+        }
+
+        .buttons .button6 {
+
+          /* margin-right: 15px !important; */
+         /* margin-top: 6px;   */
+         transform: translate(370px,-38px); 
+       }
+
+        .buttons .button7 {
+
+          /* margin-right: 15px !important; */
+         /* margin-top: 6px;   */
+         transform: translateY(-38px); 
+       }
+
+        .buttons .button8 {
+
+          /* margin-right: 15px !important; */
+         /* margin-top: 6px;   */
+         transform: translateY(-38px); 
+       }
+        .buttons .button9 {
+
+          /* margin-right: 15px !important; */
+         /* margin-top: 6px;   */
+         transform: translateY(-38px); 
+       }
+        .buttons .button10 {
+
+          /* margin-right: 15px !important; */
+         /* margin-top: 6px;   */
+         transform: translateY(-38px); 
+       }
+        .buttons .button11 {
+
+          /* margin-right: 15px !important; */
+         /* margin-top: 6px;   */
+         transform: translateY(-38px); 
+       }
+        .buttons .button12 {
+
+          /* margin-right: 15px !important; */
+         /* margin-top: 6px;   */
+         transform: translateY(220px,68px) !important; 
+       }
+
+        .buttons .button12 {
+
+          /* margin-right: 15px !important; */
+         /* margin-top: 6px;   */
+         transform: translate(380px,-76px) !important; 
+       }
+ 
+       .expand {
+         transform: translate(-40px,-40px);
+         margin-left: 60px;
+       }
+
+    .form {
+      /* width: 500px !important; */
+      padding-right: 170px ;
+      /* margin:auto; */
+    }
+
+  }
+
+  @media (min-width: 1445px) { 
+
+
+    .buttons .button7 {
+
+      /* margin-right: 15px !important; */
+     /* margin-top: 6px;   */
+     transform: translateY(6px); 
+   }
+
+    .buttons .button8 {
+
+      /* margin-right: 15px !important; */
+     /* margin-top: 6px;   */
+     transform: translateY(6px); 
+   }
+
+    .buttons .button9 {
+
+      /* margin-right: 15px !important; */
+     /* margin-top: 6px;   */
+     transform: translateY(6px); 
+   }
+    .buttons .button10 {
+
+      /* margin-right: 15px !important; */
+     /* margin-top: 6px;   */
+     transform: translateY(6px); 
+   }
+    .buttons .button11 {
+
+      /* margin-right: 15px !important; */
+     /* margin-top: 6px;   */
+     transform: translateY(6px); 
+   }
+
+    .buttons .button12 {
+
+      /* margin-right: 15px !important; */
+     /* margin-top: 6px;   */
+     transform: translate(380px,-34px) !important; 
+   }
+
+   .buttons .button6 {
+
+    /* margin-right: 15px !important; */
+   /* margin-top: 6px;   */
+     transform: translate(0px,0px) !important; 
+ }
+
+ .expand {
+  transform: translate(16px,16px);
+  margin-left: 15px;
+}
+
+  }
+
+  @media (min-width: 1510px) { 
+
+    .buttons .button12 {
+
+      /* margin-right: 15px !important; */
+     /* margin-top: 6px;   */
+       transform: translate(0px,6px) !important; 
+   }
+  
 
 
   }

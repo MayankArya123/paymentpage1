@@ -50,27 +50,27 @@ function App() {
           <div className="content">
           <h2 className="align_center">PAYMENT REQUEST</h2>
           <div class="row main-block">
-          <div class="col-md-6 col-lg-6 col-md-4  box1">
+          <div class="col-md-12 col-lg-6 col-xl-6  box1">
           <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"> Advance Plan   <span className="padding_left"> ₹30000 </span> </h5> 
-            <h4> Grade 1-3     <span className="line_through"> ₹45000 </span>  </h4>
-            <label className="margin_top"> Do you have a coupon code </label>
+          <div class="card-body card_body">
+            <h5 class="card-title card_title"> Advance Plan   <span className="padding_left"> ₹30000 </span> </h5> 
+            <h4 class="grade_text"> Grade 1-3     <span className="line_through"> ₹45000 </span>  </h4>
+            <label className="margin_top"> Do you have a coupon code ? </label>
             
 <div class="input-group mb-3 coupon_container">
 <input type="text" class="form-control" placeholder="Enter coupon code" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
 <span class="input-group-text green_button" id="basic-addon2">APPLY</span>
 </div>
 
-       <h6>  Total Amount Payable                                                   ₹30000 </h6>
-         <p> Total Savings ₹15000 </p>
+       <h6 className="card_last_2_heading">  Total Amount Payable                                                   ₹30000 </h6>
+         <p className="card_last_1_heading"> Total Savings ₹15000 </p>
      
         
           </div>
           </div>
         </div>
-          <div class="col-md-6 col-lg-6 col-md-12 form" >
-          <form className="form" onSubmit={(e)=>onSubmit(e) }>
+          <div class="col-md-12 col-lg-6 col-xl-6 form" >
+          <form className="" onSubmit={(e)=>onSubmit(e) }>
           <div className="form-group"> 
             <label >Parent’s Name* </label>
             <input 
